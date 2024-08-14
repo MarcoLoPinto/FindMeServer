@@ -1,0 +1,27 @@
+{
+  "name": "findmeserver",
+  "version": "1.0.0",
+  "description": "Server for the FindMe application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "nodemon_server": "nodemon server.js"
+  },
+  "author": "Marco Lo Pinto",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "firebase-admin": "^11.4.1",
+    "gps-distance": "^0.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
